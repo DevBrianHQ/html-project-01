@@ -7,4 +7,3 @@ using html only to build a website
 practicing html by building website then incorporate css later
 
 ### Getting Started
-
