@@ -4,7 +4,7 @@ using html only to build a website
 
 ## Overview
 
-practicing html by building website then incooparate css later
+practicing html by building website then incorporate css later
 
 ### Getting Started
 
