@@ -5,3 +5,14 @@ body {
     background-color: #333;
     color: whitesmoke;
 }
+a {
+    color: rgb(255, 119, 119);
+
+}
+a :visited {
+
+    color:rgb(77, 1, 1)
+}
+a :hover, a :active {
+    color: #18f008;
+}
