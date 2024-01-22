@@ -8,11 +8,11 @@ body {
 }
 
 a {
-    color: rgb(255, 119, 119);
+    color: rgb(240, 9, 9);
 }
 
 a:visited {
-    color: rgb(77, 1, 1);
+    color: rgb(1, 6, 77);
 }
 
 a:hover, a:active {
