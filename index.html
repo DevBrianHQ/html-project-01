@@ -26,10 +26,8 @@
         </nav>
 
         <hr>
-
     </header>
 
-    <!-- Add more information on strategy here -->
     <main>
         <article>
             <h2>I am ready to learn HTML</h2>
@@ -42,7 +40,7 @@
                         Example of HTML code
                     </figcaption>
                     <p>
-                        <code>&lt;h1&gt;Hello World!&lt;h1&gt;</code>
+                        <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
                     </p>
                 </figure>
             </section>
@@ -83,7 +81,6 @@
                                 Write code
                             </td>
                         </tr>
-
                         <tr>
                             <th scope="row">Break</th>
                             <td>
@@ -128,13 +125,12 @@
                         <tr>
                             <td>Sleep Time</td>
                         </tr>
-
-                        <tfoot>
-                            <tr>
-                                <td colspan="3">That's how I do it 6 days a weekend: wake up, eat, code, exercise, and recharge</td>
-                            </tr>
-                        </tfoot>
                     </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">That's how I do it 6 days a weekend: wake up, eat, code, exercise, and recharge</td>
+                        </tr>
+                    </tfoot>
                 </table>
             </section>
         </article>
@@ -195,73 +191,71 @@
             </section>
         </article>
         <hr>
-        <article id="Contact">
+        <article id="contact">
             <h2>Contact me</h2>
             <p>I'd really like to hear from you</p>
             <fieldset>
                 <legend>Personal information</legend>
-            <p>
-                <form action="https://httpbin.org/" method="get"></form>
-                <label for="firstName">First name:</label>
-                <input type="text" name="firstName" id="firstName" placeholder="Kipchumba" autocomplete="on" required autofocus>
-            </p>
-            <p>
-                <form action="https://httpbin.org/" method="get"></form>
-                
-                    <label for="lastName">Last name:</label>
-                    <input type="text" name="lastName" id="lastName" placeholder="Brian" autocomplete="on" required >
-            </p>
-            
-            
-            <p>
-                <form action="https://httpbin.org/" method="get"></form>
-                <label for="phone">Phone:</label>
-                <input type="tel" name="phone" id="phone" placeholder="5555555555" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" >
-            </p>
-            <p>
-                <form action="https://httpbin.org/" method="get"></form>
-                <label for="decade">Decade:</label>
-                <input type="number" name="decade" id="decade" min="1950" max="2030" step="10" value="1980"  >
-            </p>
-            <p>
-                <label for="coffee">favourite coffee</label>
-                <select name="coffee" id="coffee" multiple size="6">
-                    <optgroup label="Cofees">
-                        <option value="regular coffee">Regular coffee</option>
-                        <option value="iced cofee">Iced coffee</option>
-                    </optgroup>
-                    <optgroup label="Expressos" >
-                        <option value="latte">Latte</option>
-                        <option value="americano">Americano</option>
-                        <option value="cappucino" >Cappuchino</option>
-                        <option value="cortado">Cortado</option>
-                </optgroup>
-                    <option value="others">Others</option>
-            </p>
-            <!-- <p>
-                <label for="coffee">Favourite coffee</label>
-                <input type="text" name="coffee" id="coffee" list="coffee-list">
-                <datalist id="coffee-list">
-                    <option value="Regular coffee">
-                    <option value="Iced coffee">
-                    <option value="Latte">
-                    <option value="Americano">
-                    <option value="Cappucino">
-                    <option value="Cortado">
-                    <option value="others">Others
-                </datalist>
-                
-            </p> -->
+                <form action="https://httpbin.org/" method="get">
+                    <p>
+                        <label for="firstName">First name:</label>
+                        <input type="text" name="firstName" id="firstName" placeholder="Kipchumba" autocomplete="on" required autofocus>
+                    </p>
+                    <p>
+                        <label for="lastName">Last name:</label>
+                        <input type="text" name="lastName" id="lastName" placeholder="Brian" autocomplete="on" required>
+                    </p>
+                    <p>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" name="phone" id="phone" placeholder="5555555555" pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+                    </p>
+                    <p>
+                        <label for="decade">Decade:</label>
+                        <input type="number" name="decade" id="decade" min="1950" max="2030" step="10" value="1980">
+                    </p>
+                    <p>
+                        <label for="coffee">Favorite coffee</label>
+                        <select name="coffee" id="coffee" multiple>
+                            <optgroup label="Coffees">
+                                <option value="regular coffee">Regular coffee</option>
+                                <option value="iced coffee">Iced coffee</option>
+                            </optgroup>
+                            <optgroup label="Espressos">
+                                <option value="latte">Latte</option>
+                                <option value="americano">Americano</option>
+                                <option value="cappuccino">Cappuccino</option>
+                                <option value="cortado">Cortado</option>
+                            </optgroup>
+                            <option value="others">Others</option>
+                        </select>
+                    </p>
+                </form>
             </fieldset>
             <br>
             <fieldset>
-                <legend>What is your favourite food?</legend>
-
+                <legend>What is your favorite food?</legend>
+                <p>
+                    <input type="radio" id="tacos" name="food" value="tacos">
+                    <label for="tacos">Tacos</label>
+                </p>
+                <p>
+                    <input type="radio" id="pizza" name="food" value="pizza">
+                    <label for="pizza">Pizza</label>
+                </p>
+                <p>
+                    <input type="radio" id="others" name="food" value="others">
+                    <label for="others">Others</label>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Do you have pets?</legend>
+                
             </fieldset>
         </article>
     </main>
     <hr>
-        
+
     <footer>
         <p>&lt;&lt;&lt; &copy; <a href="about.html" style="color: gold;">DevBrianHQ</a> &gt;&gt;&gt;</p>
         <p>
